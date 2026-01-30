@@ -1,21 +1,21 @@
-# 🌐 PHP User Authentication & Mini Social Web App
+#  PHP User Authentication & Mini Social Web App
 
 A simple and beginner-friendly **PHP Web Application** that includes:
 
-🔐 User Registration  
-🔑 Login / Logout System  
-👤 Profile Page  
-🖼️ Gallery Page  
-💬 Comment Fetching API  
-🎉 Welcome Dashboard  
+ User Registration  
+ Login / Logout System  
+ Profile Page  
+ Gallery Page  
+ Comment Fetching API  
+ Welcome Dashboard  
 
 This project is designed to help beginners understand **forms, sessions, authentication, and PHP backend logic**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🔐 **Authentication System**
+###  **Authentication System**
 - Signup with validation (username, email, password, location)
 - Login using username/email + password
 - Redirects to dashboard after login
@@ -24,32 +24,32 @@ This project is designed to help beginners understand **forms, sessions, authent
 
 ---
 
-### 👤 **User Profile**
+###  **User Profile**
 - Displays user information  
 - Shows username, email, and location  
 - Accessible only after login  
 
 ---
 
-### 🖼️ **Gallery Page**
+###  **Gallery Page**
 - Displays gallery items (can be extended)
 - Static or dynamic image loading support  
 
 ---
 
-### 💬 **Comment Fetching (API Style)**
+###  **Comment Fetching (API Style)**
 - `get_comments.php` returns comments in **JSON format**
 - Helps beginners understand API-like responses
 
 ---
 
-### 🎉 **Welcome Dashboard**
+###  **Welcome Dashboard**
 - A simple landing page after login  
 - Ensures user is authenticated  
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 Weather_Forecasting-project/
@@ -67,7 +67,7 @@ Weather_Forecasting-project/
 
 ---
 
-## 📝 Registration Form UI (From `register.php`)
+##  Registration Form UI (From `register.php`)
 
 Your registration page includes fields:
 
@@ -101,55 +101,55 @@ Example snippet:
 
 ---
 
-## ▶️ How to Run This Project
+##  How to Run This Project
 
-### 1️⃣ Install XAMPP / WAMP  
+### 1️ Install XAMPP / WAMP  
 XAMPP recommended.
 
-### 2️⃣ Move the project folder to:
+### 2️ Move the project folder to:
 
 ```
 C:/xampp/htdocs/
 ```
 
-### 3️⃣ Start Apache  
+### 3️ Start Apache  
 Open XAMPP → Start **Apache**
 
-### 4️⃣ Open in browser:
+### 4️ Open in browser:
 ```
 http://localhost/Weather_Forecasting-project/
 ```
 
 ---
 
-## 🧠 How the System Works
+##  How the System Works
 
-### ✔ `register.php`
+###  `register.php`
 - Validates user input  
 - Stores user details in database (if configured)  
 - Shows error messages inside form  
 
-### ✔ `login.php`
+###  `login.php`
 - Validates login credentials  
 - Creates a session  
 - Redirects to `welcome.php`  
 
-### ✔ `welcome.php`
+###  `welcome.php`
 - Only logged-in users can access it  
 
-### ✔ `profile.php`
+###  `profile.php`
 - Shows user info stored during registration  
 
-### ✔ `gallery.php`
+###  `gallery.php`
 - Displays gallery items (images or text)  
 
-### ✔ `get_comments.php`
+###  `get_comments.php`
 - Returns comments in JSON format  
 - Can be used with AJAX / Fetch API  
 
 ---
 
-## 💡 Future Enhancements (Good for College Project)
+##  Future Enhancements (Good for College Project)
 
 - Add password hashing (`password_hash()`)
 - Add profile picture upload  
@@ -160,7 +160,7 @@ http://localhost/Weather_Forecasting-project/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Devadharshan B**  
 Web Dev | Cybersecurity | PHP Learner  
